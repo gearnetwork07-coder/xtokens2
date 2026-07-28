@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_bg"
+    tools:context=".ui.dialogfrag.BonusAdFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/effect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_rawRes="@raw/effect_celibration"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_15dp"
+            app:cardCornerRadius="@dimen/dimen_15dp"
+            app:cardElevation="@dimen/margin_10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/imglayout"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/successAnim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_centerInParent="true"
+                        android:scaleX="1.2"
+                        android:scaleY="1.2"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="false"
+                        app:lottie_rawRes="@raw/success1" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin">
+
+                    <TextView
+                        android:id="@+id/congrts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/museo_bold"
+                        android:gravity="center"
+                        android:text="@string/well_done"
+                        android:textColor="@color/text_color"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/museo_bold"
+                        android:gravity="center"
+                        android:text="@string/watch_a_short_video_ad"
+                        android:textColor="@color/text_color"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/coinLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_15dp"
+                        android:background="@drawable/badge_background"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/ivCoin"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/coin" />
+
+                        <TextView
+                            android:id="@+id/tvRewardAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="+50"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/claim"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:background="@drawable/bg_btn"
+                        android:elevation="4dp"
+                        android:fontFamily="@font/museo_bold"
+                        android:padding="10dp"
+                        android:textSize="16sp"
+                        android:text="@string/watch_ad_earn_coins"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/close"
+                        android:layout_width="180dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginBottom="20sp"
+                        android:background="@drawable/bg_border"
+                        android:elevation="4dp"
+                        android:fontFamily="@font/museo_semi_bold"
+                        android:padding="10dp"
+                        android:textSize="16sp"
+                        android:text="@string/not_now"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text_color" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

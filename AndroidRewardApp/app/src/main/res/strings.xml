@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Reward App</string>
+    <string name="app_name_part_one" translatable="false">Reward</string>
+    <string name="app_name_part_two" translatable="false">App</string>
+
+    <!--  ToDO : Task & Offer Name  -->
+    <string name="activity_daily">দৈনিক চেকইন</string>
+    <string name="activity_quiz">গণিত ক্যুইজ</string>
+    <string name="activity_spin">স্পিন &amp; জয় করুন</string>
+    <string name="activity_article">নিবন্ধ পড়ুন</string>
+    <string name="activity_videozone">ভিডিওজোন</string>
+    <string name="activity_offers">অফার</string>
+    <string name="activity_reward">পুরস্কার</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="error_invalid_email">অনুগ্রহ করে ইমেল লিখুন</string>
+    <string name="error_invalid_password">অনুগ্রহ করে পাসওয়ার্ড লিখুন</string>
+    <string name="email">ইমেল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="create_account">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="sign_in_to_continue">চালিয়ে যেতে সাইন ইন করুন</string>
+    <string name="welcome_back">স্বাগত,</string>
+    <string name="email_error">ইমেল বৈধ নয়</string>
+    <string name="error_password">অনুগ্রহ করে পাসওয়ার্ড লিখুন</string>
+    <string name="on_internet">কোন ইন্টারনেট সংযোগ নেই</string>
+    <string name="username">ব্যবহারকারীর নাম</string>
+    <string name="phone">ফোন</string>
+    <string name="refer">বন্ধুকে আমন্ত্রণ জানান এবং \nবোনাস পান</string>
+    <string name="fil_detail"> চালিয়ে যেতে বিস্তারিত পূরণ করুন</string>
+    <string name="home">হোম</string>
+    <string name="instructions"> নির্দেশাবলী</string>
+    <string name="notifications">বিজ্ঞপ্তি</string>
+    <string name="history">ইতিহাস</string>
+    <string name="feedback">প্রতিক্রিয়া</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি</string>৷
+    <string name="about_us"> আমাদের সম্পর্কে</string>
+    <string name="rate_us">আমাদের রেট দিন</string>
+    <string name="already_have_an_account_signin_here">ইতিমধ্যে একটি অ্যাকাউন্ট আছে? এখানে সাইন ইন করুন৷</string>
+    ৷
+    <string name="signup">সাইন আপ</string>৷
+    <string name="email_address">ইমেল ঠিকানা</string>
+    <string name="phone_no">ফোন নম্বর</string>
+    <string name="referral_id_if_available"> রেফারেল আইডি (যদি পাওয়া যায়)</string>
+    <string name="company">কোম্পানী</string>
+
+    <string name="name">নাম</string>
+    <string name="version">সংস্করণ</string>
+    <string name="contact_us">আমাদের সাথে যোগাযোগ করুন</string>
+    <string name="website">ওয়েবসাইট</string>
+    <string name="current_coins"> বর্তমান মুদ্রা:</string>
+    <string name="_00000">00000</string>
+    <string name="rewards">পুরস্কার</string>
+    <string name="connect_with_us">আমাদের সাথে সংযোগ করুন</string>
+    <string name="www_example_com" translatable="false">www.example.com</string>
+    <string name="who_we_are">আমরা কারা?</string>
+    <string name="more_offers">আরো অফার</string>
+    <string name="invite">আমন্ত্রণ করুন</string>৷
+    <string name="confirm">নিশ্চিত করুন</string>৷
+    <string name="_10">10</string>৷
+    <string name="coin_history"> মুদ্রার ইতিহাস</string>
+    <string name="reward_history">পুরস্কারের ইতিহাস</string>
+    <string name="no_internet">কোন ইন্টারনেট সংযোগ নেই!!</string>
+    <string name="error_username"> অনুগ্রহ করে ব্যবহারকারীর নাম লিখুন</string>
+    <string name="error_phone">ফোন নম্বর লিখুন</string>
+    <string name="ok">ঠিক আছে</string>৷
+    <string name="_0" translatable="false">0</string>৷
+    <string name="coin"> মুদ্রা</string>
+    <string name="wrong">পরে আবার চেষ্টা করুন</string>
+    <string name="logout">লগ আউট</string>৷
+    <string name="invitefriend">বন্ধুকে আমন্ত্রণ জানান</string>
+    <string name="tap_copy">কপি করতে আলতো চাপুন</string>
+    <string name="your_refer_code">আপনার রেফার কোড</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="hello">হ্যালো,</string>
+    <string name="mobile">মোবাইল</string>
+    <string name="play"> খেলুন</string>
+    <string name="today_remaining_spin"> আজকের অবশিষ্ট স্পিন :</string>
+    <string name="today_remaining_quiz"> আজকের অবশিষ্ট কুইজ :</string>
+    <string name="skip">এড়িয়ে যান</string>
+    <string name="congratulations">অভিনন্দন!!</string>
+    <string name="share">শেয়ার করুন</string>৷
+    <string name="complete_challange">সম্পূর্ণ চ্যালেঞ্জ</string>
+    <string name="redeem_reward">পুরস্কার রিডিম করুন</string>
+    <string name="loading">লোড হচ্ছে...</string>
+    <string name="please_enter_id">দয়া করে আইডি লিখুন</string>
+    <string name="submit">জমা দিন</string>
+    <string name="task_challange">টাস্ক চ্যালেঞ্জ</string>
+    <string name="no_result_found">কোন ফলাফল পাওয়া যায়নি</string>
+    <string name="refer_desc">আপনার বন্ধুকে আমন্ত্রণ জানান এবং \nমুদ্রা উপার্জন করুন</string>
+    <string name="we_sent_an_otp_on_your_email_please_check_your_email_also_check_spam_folder">আমরা আপনার ইমেলে একটি OTP পাঠিয়েছি। অনুগ্রহ করে আপনার ইমেল চেক করুন এছাড়াও স্প্যাম ফোল্ডার চেক করুন৷</string>
+    <string name="verify">যাচাই করুন</string>
+    <string name="otp_verification">Otp যাচাইকরণ</string>
+    <string name="enter_your_registerd_email_you_will_receive_6_digit_otp">আপনার নিবন্ধিত ইমেল লিখুন আপনি 6 সংখ্যার OTP পাবেন</string>
+    <string name="confirm_password">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="update_pass_desc">নতুন পাসওয়ার্ড তৈরি করুন</string>
+    <string name="new_password">নতুন পাসওয়ার্ড</string>
+    <string name="id">ID</string>
+    <string name="no_thanks">না ধন্যবাদ</string>
+    <string name="please_wait">অনুগ্রহ করে অপেক্ষা করুন...</string>
+    <string name="vpn_not_connected">এই অ্যাপটি ব্যবহার করার জন্য আপনাকে vpn ব্যবহার করতে হবে</string>
+    <string name="read_article_subtitle"><![CDATA[নিবন্ধ পড়ুন এবং সম্পূর্ণ অফারটি পুরস্কার পান]]></string>
+    <string name="proceed">এগিয়ে যান</string>৷
+    <string name="get_started">শুরু করুন</string>
+    <string name="next">পরবর্তী</string>
+    <string name="rate_our_app">আমাদের অ্যাপকে রেট দিন</string>
+    <string name="share_your_experience_with_us">আপনার অভিজ্ঞতা আমাদের সাথে শেয়ার করুন</string>
+    <string name="watch_article_getbonus">বোনাস পেতে টিউটোরিয়াল দেখুন</string>
+    <string name="okay">ঠিক আছে</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="oops">ওহো</string>৷
+
+    <string name="game"> গেমস</string>
+    <string name="play_game"> গেম খেলুন</string>
+    <string name="txt_loading">লোড হচ্ছে..</string>
+    <string name="txt_exit">প্রস্থান করুন</string>
+    <string name="txt_confirm_exit">আপনি কি প্রস্থান করতে চান?</string>
+    <string name="txt_yes">হ্যাঁ</string>
+    <string name="txt_no">না</string>
+    <string name="txt_this_function_is_not_support_here">এই ফাংশনটি এখানে সমর্থন করে না।</string>
+    <string name="Top_picks">শীর্ষ বাছাই</string>
+    <string name="play_zone">প্লেজোন</string>
+    <string name="history_subtitle"><![CDATA[ওয়ালেট ইতিহাস এবং পুরস্কারের ইতিহাস]]></string>
+    <string name="rewards_subtitle"><![CDATA[পুরস্কার ও উপহারের কার্ড সংগ্রহ করুন]]></string>
+    <string name="contact_us_subtitle"><![CDATA[আমাদের সাথে যোগাযোগ করুন এবং আপনার মতামত পাঠান]]></string>
+    <string name="feedback_subtitle">আপনার মতামত জমা দিন</string>
+    <string name="logout_this_accout">এই অ্যাকাউন্টটি লগআউট করুন</string>
+    <string name="privacy_policy_subtitle">গোপনীয়তা নীতি পড়তে ক্লিক করুন</string>
+    <string name="support"> সমর্থন</string>
+    <string name="my_coin">আমার মুদ্রা</string>
+    <string name="no">না</string>
+    <string name="yes">হ্যাঁ</string>৷
+    <string name="are_you_sure_you_want_to_logout">আপনি কি নিশ্চিত যে আপনি লগআউট করতে চান?</string>
+    <string name="maintenance">রক্ষণাবেক্ষণ</string>৷
+    <string name="update">আপডেট করুন</string>
+    <string name="update_available">নতুন আপডেট উপলব্ধ</string>৷
+    <string name="refer_code">রেফারেল কোড</string>
+    <string name="Login">লগইন</string>
+    <string name="newuser">আমি একজন নতুন ব্যবহারকারী</string>
+    <string name="copy">কপি</string>৷
+    <string name="complete_offer">সম্পূর্ণ অফার</string>
+    <string name="msg_not_complete">চ্যালেঞ্জ সম্পূর্ণ হয়নি</string>
+
+    <string name="english">ইংরেজি</string>
+    <string name="clickto_choose">ভাষা চয়ন করতে ক্লিক করুন</string>
+    <string name="india">হিন্দি</string>
+    <string name="turkey">তুরস্ক</string>
+    <string name="choose_language">ভাষা চয়ন করুন</string>
+    <string name="tutorial">টিউটোরিয়াল</string>
+    <string name="submit_answer">উত্তর জমা দিন</string>
+    <string name="right_answer">আপনার উত্তর লিখুন</string>
+    <string name="enter_valid_answer">অনুগ্রহ করে উত্তর লিখুন</string>
+    <string name="fill_required_detail">অনুগ্রহ করে প্রয়োজনীয় বিবরণ পূরণ করুন</string>
+    <string name="fill"> পূরণ করুন</string>
+    <string name="detail"> বিস্তারিত</string>
+    <string name="password_update_msg">পাসওয়ার্ড সফলভাবে আপডেট হয়েছে ফিরে যান এবং এখনই লগইন করুন!!</string>
+    <string name="password_not_match">নতুন পাসওয়ার্ড এবং পাসওয়ার্ড মেলেনি তা নিশ্চিত করুন!!</string>
+    <string name="invalid_otp">অবৈধ OTP</string>
+    <string name="completed">সমাপ্ত</string>
+    <string name="spain">স্পেন</string>
+
+
+    <string name="delete_my_account">অ্যাকাউন্ট মুছুন</string>
+    <string name="delete_account_subtitle">মোছার পর অ্যাকাউন্ট পুনরুদ্ধার করা যাবে না</string>
+    <string name="are_you_sure_you_want_to_delete">আপনি কি নিশ্চিত?</string>
+    <string name="delete_account_msg">আপনি কি আপনার অ্যাকাউন্ট মুছতে চান? এই ক্রিয়াটি পূর্বাবস্থায় ফেরানো যাবে না. সমস্ত ডেটা স্থায়ীভাবে মুছে ফেলা হবে</string>
+    <string name="verify_email" >ইমেল যাচাই করুন</string>
+    <string name="verify_email_claim">বোনাস পেতে ইমেল যাচাই করুন</string>
+    <string name="claim_refer">স্বাগত বোনাস দাবি করুন</string>
+    <string name="welcome_bonus_msg">স্বাগত বোনাস দাবি করার জন্য প্রথমে আপনাকে আপনার প্রোফাইল ইমেল ঠিকানা যাচাই করতে হবে৷ আমরা আপনাকে আপনার ইমেল ঠিকানায় যাচাই করার লিঙ্ক পাঠাব</string>
+    <string name="check_email_status">ইমেল যাচাইকরণ স্থিতি পরীক্ষা করুন</string>
+</resources>

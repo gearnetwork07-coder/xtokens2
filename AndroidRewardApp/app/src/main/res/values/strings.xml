@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name" translatable="false">Reward App</string>
+
+    <!--  ToDO : OneSignal App ID  -->
+    <string name="one_signal_appid" translatable="false">6cf6cffa-cc06-4805-9522-4f0f9acd0f2a</string>
+
+    <!--  ToDO : Applovin SDK Key  -->
+    <string name="APPLOVIN_SDK_KEY" translatable="false">xxx</string>
+
+    <!--   INTRO SLIDER  -->
+    <string name="intro_slide_title1">Welcome To Reward</string>
+    <string name="intro_slide_one_description"><![CDATA[In this App you can earn Different Type of Reward & and Giftcard.]]></string>
+
+    <string name="intro_slide_title2"><![CDATA[Refer & Earn]]></string>
+    <string name="intro_slide_two_description">Invite Your Friend and Earn Bonus</string>
+
+    <string name="intro_slide_title3">Earn Rewards</string>
+    <string name="intro_slide_thre_description"><![CDATA[Complete daily challenges and tasks to earn bonuses, then redeem them to your account.]]></string>
+    <!--   INTRO SLIDER  END -->
+
+    <string name="top_picks">Top Picks</string>
+    <string name="playzone">Games</string>
+    <string name="home">Home</string>
+    <string name="invite">Invite</string>
+    <string name="leaderboard">Leaderboard</string>
+
+    <string name="about_us">About us</string>
+    <string name="claim_refer_bonus">Claim Refer Bonus</string>
+    <string name="enter_refer_code">Enter Refer Code</string>
+    <string name="claim">Claim</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="i_m_a_new_user">I’m a new user? </string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="continue_with">Continue with</string>
+    <string name="login">Login</string>
+    <string name="fill_detail_to_continue">Fill detail to continue</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="submit">Submit</string>
+    <string name="enter_answer">Enter Answer</string>
+    <string name="we_sent_an_otp_on_your_email_please_check_your_email_also_check_spam_folder">We sent an OTP on your email. Please check your email also check Spam Folder.</string>
+    <string name="verify">Verify</string>
+    <string name="otp_verification">Otp Verification</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="update_password">Update Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="update">Update</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="refer_history">Refer History</string>
+    <string name="today_joined">Today Joined</string>
+    <string name="all_joined">All Joined</string>
+    <string name="you_won">You won</string>
+    <string name="scratch_again">Play Again</string>
+    <string name="play">Play</string>
+    <string name="read_article">Read Article</string>
+    <string name="spin_amp_win"><![CDATA[Spin & Win]]></string>
+    <string name="scratch_card">Scratch Card</string>
+    <string name="math_quiz">Math Quiz</string>
+    <string name="rewards">Rewards</string>
+    <string name="watch_tutorial">Watch tutorial</string>
+    <string name="instructions">Instructions</string>
+    <string name="complete_offer">Complete offer</string>
+    <string name="enter_your_registerd_email_you_will_receive_6_digit_otp">Enter your registered email you will receive 6 digit otp</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="history">History</string>
+    <string name="offers">Offers</string>
+    <string name="top_surveys">Surveys</string>
+    <string name="top_offers">Tasks</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="invite_friend_and_get_bonus">Invite Friend and Get Bonus</string>
+    <string name="invite_your_friend_and_earn_coin">Invite your Friend and Earn {coin} Coin</string>
+    <string name="share">Share</string>
+    <string name="have_a_referral_code">Have a Referral Code?</string>
+    <string name="referral_history">Referral History</string>
+    <string name="my_coin">My Coin</string>
+    <string name="my_profile">My Profile</string>
+    <string name="view_edit_profile">View/Edit Profile</string>
+    <string name="collect_reward_amp_gift_card"><![CDATA[Collect Reward & Gift Card]]></string>
+    <string name="select_your_preferred_language">Select your preferred language</string>
+    <string name="support">Support</string>
+    <string name="contact_us_amp_send_your_feedback"><![CDATA[Contact us & send your Feedback]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="click_to_read_privacy_policy">Click to read Privacy policy</string>
+    <string name="logout">Logout</string>
+    <string name="logout_this_account">Logout this account</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="after_delete_can_t_recover_account">After delete can\'t recover account</string>
+    <string name="rate_our_app">Rate our app</string>
+    <string name="share_your_experience_with_us">Share your experience with us</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="watch_tutorial_get_bonus">Watch Tutorial get Bonus</string>
+    <string name="spend_time_and_get_bonus">Read Article and get bonus</string>
+    <string name="okay">okay</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="close">Close</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="before_using_this_application_you_need_to_read_and_agree_to_our_privacy_policy_and_terms_of_service">Before using this Application you need to read and agree to our privacy policy and terms of service</string>
+    <string name="cancel">Cancel</string>
+    <string name="agree">Agree</string>
+    <string name="create_new_password">Create New Password</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="skip">Skip</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="update_available">New Update Available</string>
+    <string name="todo">todo</string>
+    <string name="enter_username">Enter UserName</string>
+    <string name="error_invalid_email">Enter Valid Email</string>
+    <string name="enter_phone">Enter Phone no.</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="minimum_password_length">Enter Minimum 5 Digit or word password</string>
+    <string name="setting_language">Setting up Language</string>
+    <string name="today_quiz">Today Quiz</string>
+    <string name="right_answer">Right Answer</string>
+    <string name="wrong_answer">Wrong Answer</string>
+    <string name="oops">Oops</string>
+    <string name="proceed">Proceed</string>
+    <string name="success">Success</string>
+    <string name="invalid_otp">Wrong OTP</string>
+    <string name="fill_required_detail">Please fill required details</string>
+    <string name="password_not_match">Password not match</string>
+    <string name="password_update_message">Password Update Successfully</string>
+    <string name="no_result_found">No Result found</string>
+    <string name="today_spin">Today Spin</string>
+    <string name="get_started">Get Started</string>
+    <string name="coin_history">History</string>
+    <string name="reward_history">Redeem History</string>
+    <string name="completed">Completed</string>
+    <string name="are_you_sure_to_logout">Are you sure you want to Logout?</string>
+    <string name="task_not_completed">Task Not Completed</string>
+    <string name="see_top_ranked_user">See Top Ranked User</string>
+    <string name="hotoffer">HotOffer</string>
+    <string name="submit_proof">Submit Proof</string>
+    <string name="select_offer_complete_data">Select Offer Complete Data</string>
+    <string name="offer_complete_screenshot">Offer complete screenshot</string>
+    <string name="attach">Attach</string>
+    <string name="message">message</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_reveal_existing_card">Please Reveal Existing Card</string>
+    <string name="rate_app">Rate App</string>
+    <string name="rating_dialog_custom_title">Do you love this application?</string>
+    <string name="rating_dialog_custom_message">Please take a moment to rate it and help support to improve more new feature.</string>
+
+    <string name="hi">Hi,</string>
+    <string name="exit">Exit</string>
+    <string name="available_surveys">Available Surveys</string>
+    <string name="surveys">Surveys</string>
+    <string name="redeem">Redeem</string>
+    <string name="terms_condition">Terms and condition</string>
+    <string name="watch_ad">(Watch Ad) Claim Bonus</string>
+    <string name="no_reward_granted">No Reward Granted</string>
+    <string name="better_luck_next_time">Sorry better luck next time</string>
+    <string name="enable_in">loading in</string>
+    <string name="wait_for_timer_finish">Wait for timer Finish</string>
+    <string name="ad_not_available">Ad not available try again later</string>
+    <string name="today_scratch">Today Scratch</string>
+    <string name="refer_code">Refer Code</string>
+    <string name="loading_ad">Loading Ad..</string>
+    <string name="well_done">Well Done!</string>
+    <string name="watch_ad_earn_coins"><![CDATA[▶️ Watch Ad & Earn Coins]]></string>
+    <string name="not_now">Not Now</string>
+    <string name="watch_a_short_video_ad">Watch a short video ad to get your reward right instantly.!</string>
+    <string name="invalid_number">Invalid Answer</string>
+    <string name="what_is_result">"What is Result of "</string>
+    <string name="enable_in_format">New Quiz in </string>
+    <string name="please_wait">Loading...</string>
+    <string name="adblocker_detected">AdBlocker Detected. disable to use app.</string>
+
+
+</resources>

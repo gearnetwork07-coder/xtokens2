@@ -1,0 +1,78 @@
+<resources>
+
+    <color name="colorPrimary">#161f2c</color>
+    <color name="colorPrimaryDark">#1e293a</color>
+    <color name="colorAccent">#1e293a</color>
+
+    <color name="text_color">#DEDDF9</color>
+    <color name="bg_balance">@color/background</color>
+    <color name="selected_tab">#0a8eff</color>
+    <color name="blue">@color/white</color>
+    <color name="survey_text_color">@color/green</color>
+
+    <color name="toolbar">#1e293a</color>
+    <color name="background">#161f2c</color>
+    <color name="balance_background">#161f2c</color>
+
+    <color name="task_gradient_1">#696F7A</color>
+    <color name="task_gradient_2">#696F7A</color>
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#b1000000</color>
+
+
+    <color name="tab_background">#696F7A</color>
+    <color name="leaderboard_background">@color/colorPrimaryDark</color>
+    <color name="text_gray">#CBD3DC</color>
+    <color name="text_gray_lite">#D3C7C7</color>
+
+    <color name="bottomNavigationTextColor">#FFFFFF</color>
+    <color name="bottomNavigationTintColor">#0a8eff</color>
+    <color name="bottomNavigationSelectedColor">#0a8eff</color>
+    <color name="bottomNavigationBackground">#F7F7F7</color>
+    <color name="grayfm">#E6E1E1</color>
+    <color name="view_divider_color_2">#DADADA</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">#E6E5EF</color>
+    <color name="lightblack">#D7D2D2</color>
+    <color name="transparent">#0000</color>
+    <color name="customAccent">#ffc400</color>
+
+    <color name="blue_dark">#3659A2</color>
+    <color name="gold">#FEB337</color>
+    <color name="shadow">#555555</color>
+    <color name="title">#777777</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="pink">#fe485a</color>
+    <color name="red">#D50000</color>
+    <color name="view_line">#d4d9d5</color>
+    <color name="gray">#EBEBED</color>
+
+        <!--gradient colors-->
+    <color name="gradientOrange">#FF416C</color>
+    <color name="gradientViolet">#8A52E9</color>
+    <color name="gradientLightYellow">#FFA72F</color>
+    <color name="gradientLightOrange">#FF641A</color>
+    <color name="gradientLightYellow2">#FFC92B</color>
+    <color name="gradientLightOrange2">#FF7765</color>
+    <color name="gradientOrange3">#F7A23C</color>
+    <color name="gradientLightGreen">#21E8AC</color>
+
+        <!--colors for nongradientversion-->
+    <color name="cardColorTeal">#09CD95</color>
+    <color name="cardColorOrange">#FF651B</color>
+    <color name="cardColorYellow">#FF991F</color>
+    <color name="cardColorViolet">#8F51E3</color>
+    <color name="cardColorRed">#F94172</color>
+    <color name="gradient_color_1">#3f5efb</color>
+    <color name="gradient_color_2">#fc466b</color>
+    <color name="Spinwell140">#EBBEBDFC</color>
+
+    <color name="dialog_text">#000000</color>
+    <color name="green">#16A300</color>
+    <color name="dialog_text_button">#f20056</color>
+    <color name="lightgrey">#EEEEEE</color>
+    <color name="drawer_item">#E7E5E5</color>
+    <color name="drawer_item_selected">#f20056</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/background"
+    tools:context=".ui.activity.WeburlActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbar"
+        android:elevation="8dp">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_back" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/read_article"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_below="@id/layout_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding_10"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="@dimen/padding_10"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/item_placeholder"/>
+    </LinearLayout>
+
+    <include android:id="@+id/no_result"
+        layout="@layout/no_result"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/shimmer_view_container"
+        android:id="@+id/recyclerview"
+        android:layoutAnimation="@anim/layout_animation"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_above="@id/BANNER"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical" />
+
+<RelativeLayout
+        android:id="@+id/BANNER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

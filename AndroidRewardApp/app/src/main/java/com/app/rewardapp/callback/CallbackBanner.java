@@ -1,0 +1,74 @@
+package com.app.rewardapp.callback;
+
+import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
+
+public class CallbackBanner {
+
+	@SerializedName("data")
+	private List<DataItem> data;
+
+	@SerializedName("success")
+	private String success;
+
+	public List<DataItem> getData(){
+		return data;
+	}
+
+	public String getSuccess(){
+		return success;
+	}
+
+	public class DataItem{
+
+		@SerializedName("onclick")
+		private String onclick;
+
+		@SerializedName("link")
+		private String link;
+
+		@SerializedName("bannertype")
+		private String bannertype;
+
+		@SerializedName("banner")
+		private String banner;
+
+		@SerializedName("created_at")
+		private String createdAt;
+
+		@SerializedName("id")
+		private int id;
+
+		@SerializedName("status")
+		private int status;
+
+		public String getBannertype() {
+			return bannertype;
+		}
+
+		public String getOnclick(){
+			return onclick;
+		}
+
+		public String getLink(){
+			return link;
+		}
+
+		public String getBanner(){
+			return banner;
+		}
+
+		public String getCreatedAt(){
+			return createdAt;
+		}
+
+		public int getId(){
+			return id;
+		}
+
+		public int getStatus(){
+			return status;
+		}
+	}
+}

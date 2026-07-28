@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_offer"
+        android:icon="@drawable/ic_survey"
+        android:visible="false"
+        android:title="@string/offers" />
+
+
+    <item
+        android:id="@+id/navigation_invite"
+        android:icon="@drawable/ic_invite"
+        android:title="@string/invite" />
+
+    <item
+        android:id="@+id/navigation_coin"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/history" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/profile" />
+
+</menu>

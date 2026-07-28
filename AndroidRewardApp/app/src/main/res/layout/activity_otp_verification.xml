@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/background"
+    tools:context=".ui.activity.OtpVerification">
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbar"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="29dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/otp_verification"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_below="@id/layout_toolbar"
+        android:text="@string/we_sent_an_otp_on_your_email_please_check_your_email_also_check_spam_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:padding="@dimen/padding_10"
+        android:fontFamily="@font/museo_regular"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/txtStatement" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtStatement"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+        <com.alimuzaffar.lib.pin.PinEntryEditText
+            android:id="@+id/txt_pin_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:cursorVisible="true"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            app:pinBackgroundIsSquare="true"
+            app:pinCharacterMask="*"
+            app:pinLineStroke="2dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:pinLineColors="@color/colorPrimaryDark"
+            app:pinLineStrokeSelected="4dp"
+            app:pinTextBottomPadding="5dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/verify"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/txt_pin_entry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_btn"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/verify"/>
+
+    </RelativeLayout>
+</RelativeLayout>

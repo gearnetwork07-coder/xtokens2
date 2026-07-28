@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/fragment_home"
+    tools:context=".ui.fragments.Video">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+              <include
+                  android:id="@+id/tool"
+                  layout="@layout/toolbar"
+                  />
+
+              <RelativeLayout
+                  android:id="@+id/BANNER"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_above="@id/BANNER"
+                  android:elevation="5dp"
+                  android:layout_alignParentBottom="true"
+                  android:layout_centerHorizontal="true" />
+
+              <LinearLayout
+                  android:layout_below="@id/tool"
+                  android:id="@+id/shimmer_view_container"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="@dimen/padding_10"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginTop="@dimen/padding_10"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical">
+                     <include layout="@layout/item_placeholder"/>
+              </LinearLayout>
+
+              <include android:id="@+id/no_result"
+                  layout="@layout/no_result"/>
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:id="@+id/recyclerview"
+                  android:visibility="gone"
+                  android:layout_below="@id/shimmer_view_container"
+                  android:layout_width="match_parent"
+                  android:layoutAnimation="@anim/layout_animation"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"
+                  android:paddingBottom="@dimen/padding_10"
+                  android:layout_marginTop="10dp"
+                  android:scrollbars="vertical" />
+
+
+
+       </RelativeLayout>
+
+</FrameLayout>

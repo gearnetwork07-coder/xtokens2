@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:id="@+id/activity_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/dialog_bg"
+                android:backgroundTint="@color/colorPrimaryDark"
+                />
+
+            <RelativeLayout
+                android:id="@+id/v8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_btn">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/padding_10"
+                    android:src="@drawable/ic_history" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:padding="10sp"
+                android:src="@drawable/ic_close_black_24dp"
+                app:tint="@color/cardColorRed" />
+            <LinearLayout
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/v8">
+
+                <TextView
+                    android:id="@+id/tv_update_pass_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/museo_regular"
+                    android:text="@string/create_new_password"
+                    />
+
+                    <EditText
+                        android:background="@drawable/border"
+                        android:id="@+id/newpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingStart="@dimen/padding_10"
+                        android:inputType="textPassword"
+                        android:textColor="@color/black"
+                        android:hint="@string/new_password"
+                        android:autofillHints="no"
+                        android:layout_marginTop="5dp"
+                        tools:ignore="TextFields" />
+
+
+                    <EditText
+                        android:background="@drawable/border"
+                        android:id="@+id/confpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="@dimen/padding_10"
+                        android:paddingStart="@dimen/padding_10"
+                        android:inputType="textPassword"
+                        android:textColor="@color/black"
+                        android:hint="@string/confirm_password"
+                        android:shadowRadius="20"
+                        android:autofillHints="no"
+                        tools:ignore="TextFields" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:text="@string/submit"
+                    android:layout_marginTop="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/submit"
+                    android:layout_weight="1"
+                    android:padding="16dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/bg_btn"
+                    android:fontFamily="@font/museo_semi_bold"
+                    android:textColor="@color/white"
+                    android:elevation="4dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

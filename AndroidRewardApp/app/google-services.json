@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "736956540345",
+    "firebase_url": "https://reeward-app.firebaseio.com",
+    "project_id": "reeward-app",
+    "storage_bucket": "reeward-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736956540345:android:5edb59812b33858b5dc268",
+        "android_client_info": {
+          "package_name": "com.app.rewardapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736956540345-5cn8lkij6eb7rc953iearukhm0lvfcoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTP6tYSChg2_pnvMHpKKdMIGh6aAXi9IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736956540345-5cn8lkij6eb7rc953iearukhm0lvfcoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

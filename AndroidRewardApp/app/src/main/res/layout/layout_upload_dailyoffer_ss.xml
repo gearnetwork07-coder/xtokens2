@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/uploadLayouts"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:ignore="MissingConstraints"
+    android:background="@drawable/bottomsheet_bg"
+    android:backgroundTint="@color/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_complete_offer"
+        android:layout_gravity="center_horizontal"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_offer_complete_data"
+        android:textColor="@color/black"
+        android:fontFamily="@font/museo_regular"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <RelativeLayout
+        android:id="@+id/uploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/border"
+        >
+
+        <TextView
+            android:id="@+id/tv_attach_proof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="100dp"
+            android:fontFamily="@font/museo_regular"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/offer_complete_screenshot"
+            android:textColor="@color/text_gray"
+            android:textSize="13sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/uploadImage1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_task"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/museo_regular"
+            android:text="@string/attach"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/border"
+        >
+
+        <EditText
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/museo_regular"
+            android:background="@null"
+            android:hint="@string/message"
+            android:textColorHint="@color/text_gray"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/museo_bold"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+</LinearLayout>

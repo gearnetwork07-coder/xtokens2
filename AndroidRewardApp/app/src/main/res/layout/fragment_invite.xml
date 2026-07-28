@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.fragments.Invite"
+    tools:ignore="NamespaceTypo">
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbar"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="29dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="center"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/invite_friend"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_20dp">
+
+            <TextView
+                android:id="@+id/tv_referearn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/museo_semi_bold"
+                android:gravity="center"
+                android:text="@string/invite_friend_and_get_bonus"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_txtrefercoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/museo_regular"
+                android:gravity="center"
+                android:text="@string/invite_your_friend_and_earn_coin"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/ic_refer_imge"
+                tools:ignore="VectorDrawableCompat" />
+
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:id="@+id/refercode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/museo_bold"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="abced"
+                    android:textColor="#8391A1"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/ic_copy" />
+
+                <TextView
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/museo_regular"
+                    android:gravity="center"
+                    android:text="@string/share"
+                    android:textColor="@color/selected_tab"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/claimbonus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/have_a_referral_code"
+                android:textColor="@color/selected_tab"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/txtinvite"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:gravity="center"
+                android:src="@drawable/refer_btn" />
+
+            <TextView
+                android:id="@+id/refer_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:text="@string/referral_history"
+                android:textColor="@color/selected_tab"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+<RelativeLayout
+        android:id="@+id/BANNER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

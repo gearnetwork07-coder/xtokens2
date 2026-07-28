@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/background"
+    tools:context=".ui.activity.SpinActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/money_box" />
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbar"
+        android:elevation="8dp">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_back" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/spin_amp_win"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_toolbar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lytLimit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_today_remaining_quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/bg_card_5"
+                android:backgroundTint="@color/white"
+                android:elevation="8dp"
+                android:gravity="center"
+                android:fontFamily="@font/museo_semi_bold"
+                android:paddingVertical="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="20dp"
+                android:text="@string/today_spin"
+                android:textColor="@color/colorAccent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/spinvideopoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="2dp"
+                android:layout_marginStart="-10dp"
+                android:background="@drawable/bg_card_5"
+                android:elevation="9dp"
+                android:fontFamily="@font/museo_semi_bold"
+                android:gravity="center"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/Relativespin"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/circle">
+
+            <rubikstudio.library.LuckyWheelView
+                android:id="@+id/luckyWheel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="-25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="16dp"
+                app:lkwBackgroundColor="@android:color/white"
+                app:lkwCenterImage="@drawable/spin_button"
+                app:lkwCursor="@drawable/pointer"
+                app:lkwTextColor="#F8F8F8">
+
+            </rubikstudio.library.LuckyWheelView>
+        </RelativeLayout>
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/layoutspin"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            tools:ignore="MissingConstraints">
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/play"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/bg_btn"
+            android:fontFamily="@font/museo_semi_bold"
+            android:text="@string/play"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Relativespin"
+            app:layout_constraintVertical_bias="0.331" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/BANNER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
